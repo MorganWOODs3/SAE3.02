@@ -1,0 +1,7 @@
+Pour le fonctionne du programme Client:
+
+Il faut instaler: socket, sys, PyQt5.QtWidgets et PyQt5.QtGui.
+
+Pour le fonctionne du programme Server:
+
+Il faut instaler : platform, socket, psutil, os et sys

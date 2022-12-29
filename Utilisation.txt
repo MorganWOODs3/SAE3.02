@@ -1,0 +1,25 @@
+Pour utiliser correctement les deux programmes :
+
+Tout d'abord faire les installations ensuite ont RUN le server et après le client.
+
+Les commandes se feront sur le client dont les commande sont :
+
+3 principale commande kill, reset et disconnect
+
+kill: arrête le server.
+reset: reset le server.
+disconnect : déconnecte le client.
+
+name : le nom de l'host.
+version : la version de python.
+cpu : L'usage du cpu.
+ip : ip du server.
+os : l'os de l'host.
+ram : test de la ram.
+ping : ping.
+
+powershell + commande : toutes les commande avec powershell.
+dos: + commande : toutes les commande avec dos: .
+
+mkdir : crée un fichier.
+dir : affiche la liste des répertoires et des fichiers. 
