@@ -4,9 +4,6 @@ from PyQt5 import uic
 import sys
 import socket
 
-
-#install PyQt5
-
 # Essais d'interface
 
 # class MyGUI(QMainWindow):

