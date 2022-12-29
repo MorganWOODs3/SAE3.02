@@ -103,9 +103,6 @@ while message != "kill":
                     # print(f'\nVoici le ping : \n{ping}')
                     conn.send(f'\nVoici le ping : \n {ping}'.encode())
 
-                if message == 'get-process':
-                    process = os.popen('wmic process get description, processid').read()
-                    conn.send(process.encode())
 
             conn.close()
 
